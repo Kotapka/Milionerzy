@@ -1,0 +1,75 @@
+.helper{
+    -fx-background-color:
+                linear-gradient(#ffd65b, #e68400),
+                linear-gradient(#ffef84, #f2ba44),
+                linear-gradient(#ffea6a, #efaa22),
+                linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+                linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 5 );
+    -fx-background-radius: 1000;
+}
+
+.Answer_Button{
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 50;
+    -fx-background-color:
+                #000000,
+                linear-gradient(#010042, #01004d),
+                linear-gradient(#151559, #070740),
+                linear-gradient(#020252, #090952);
+    -fx-border-style: solid;
+    -fx-border-radius: 50;
+    -fx-border-color: #ffffff;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 5 );
+}
+
+.Answer_Button_Good{
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 50;
+    -fx-background-color: #98ff8c;
+    -fx-border-style: solid;
+    -fx-border-radius: 50;
+    -fx-border-color: #ffffff;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 5 );
+}
+
+#question_field{
+    -fx-background-radius: 50;
+}
+
+#background{
+    -fx-background-color:
+            #000000,
+            linear-gradient(#010042, #01004d),
+            linear-gradient(#151559, #070740),
+            linear-gradient(#020252, #090952);
+    -fx-background-radius: 20;
+    -fx-border-style: solid;
+    -fx-border-radius: 20;
+    -fx-border-color: #ffffff;
+}
+
+.number_question{
+    -fx-fill: #ffffff;
+    -fx-font-size: 16;
+}
+
+.markdown{
+    -fx-fill: #ffffff;
+}
+
+.money_amount{
+    -fx-fill: #ffffff;
+    -fx-font-size: 16;
+}
+
+.money_amount_threshold{
+    -fx-fill: #ffee00;
+    -fx-font-size: 16;
+}
+
+#End_Game{
+    -fx-background-radius: 30;
+
+}
+
